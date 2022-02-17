@@ -1,0 +1,32 @@
+
+[digging]
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.1
+	#Range: > -1
+	sea_level = -1
+	blocks_blacklist = ["minecraft:obsidian"]
+	dimensions_blacklist = ["minecraft:the_end"]
+
+["dealt damage"]
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.3
+	entities_blacklist = []
+	#Range: > -1
+	sea_level = -1
+	dimensions_blacklist = ["minecraft:the_end"]
+
+["incoming damage"]
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.065
+	entities_blacklist = []
+	#Range: > -1
+	sea_level = -1
+	dimensions_blacklist = ["minecraft:the_end"]
+
+[healing]
+	#Range: 0.0 ~ 1.0
+	multiplier = 0.075
+	#Range: > -1
+	sea_level = -1
+	dimensions_blacklist = ["minecraft:the_end"]
+
